@@ -43,7 +43,7 @@ public class Main {
         byte sheetsPerStudent = (byte) (allSheets / allStuds);
 
         System.out.println("ЗАДАЧА 3");
-        System.out.println("На каждого ученика рассчитано" + sheetsPerStudent + " листов бумаги");
+        System.out.println("На каждого ученика рассчитано " + sheetsPerStudent + " листов бумаги");
         System.out.println("-------------------------------");
 
         // Задача 4
@@ -115,8 +115,10 @@ public class Main {
         int difSalDenis = (upSalDenis * 12) - (salDenis * 12);
         int difSalKristina = (upSalKristina * 12) - (salKristina * 12);
 
+        System.out.println("ЗАДАЧА 8");
         System.out.println("Маша теперь получает " + upSalMasha + " рублей. Годовой доход вырос на " + difSalMasha + " рублей");
         System.out.println("Денис теперь получает " + upSalDenis + " рублей. Годовой доход вырос на " + difSalDenis + " рублей");
         System.out.println("Кристина теперь получает " + upSalKristina + " рублей. Годовой доход вырос на " + difSalKristina + " рублей");
+
     }
 }
